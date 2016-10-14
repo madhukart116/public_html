@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+             <script> 
+                 $(document).ready(function(){
+                    $("li").hover(function(){
+                        $(this).find("ul>li").stop().fadeToggle(400);
+                    });
+                 });
+              function Slider(){
+                  $(".slider #1").show("fade",500);
+                  $(".slider #1").delay(5500).hide("slide",{direction:"left"},500);
+                   var sc = $(".slider img").size();
+                   var count = 2;
+                   setInterval(function(){
+                       $(".slider #"+count).show("slide",{direction:"right"},500);
+                       $(".slider #"+count).delay(5500).hide("slide",{direction:"left"},500);
+                       if(count == sc){
+                           count = 1;
+                       }
+                           else{
+                               count = count+1;
+                           }
+                       },6500);
+                       }
+</script>
+            
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Tarkaari</title>
+        <meta charset="UTF-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     </head>
+     <body onload="Slider();"> 
+       
+         <div id="header">
+             
+           </div>
+         <div id ="logo">
+             <img src="img/logot.png">
+             <p>TarKaari.com</P>
+               <form>
+                   <input id="Sinp" type="search" placeholder="Enter the product you want.............."><input id="Sbtn" type="button" value="Search" class="searchB">
+               </form>
+             <div id="logoB">
+             <img src="img/cod.png">
+             </div>
+             
+         </div>
+           <div id="logoC">
+               
+                 <img src="img/CustomerSupport.gif">
+             </div>
+         <div id ="logoD">
+             <p>ORDER BY CALL<BR>
+                 ORDER BY MESSAGE<BR>
+                 ORDER BY EMAIL<BR>
+                 ORDER ONLINE
+             </p>
+         </div>
+         
+         <div id="hmenu">
+      
+         <ul>
+             <li><a href="#">Home</a> </li>
+             <li><a href="#">Product</a></li>
+             <li><a href="#">Services</a></li>
+             <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a> </li>
+         </ul>
+         </div>
+         <div id="vmenu">
+        <ul>
+                 <li><a href="#">Vegetables</a></li>
+                  <li><a href="#">Fruits</a></li>
+                   <li><a href="#">Bakery</a></li>
+                    <li><a href="#">Milk&Bread</a></li>
+                     <li><a href="#">Dairy Product </a></li>
+                     <li><a href="#">Perfumes</a></li>
+                      <li><a href="#">Chocolate</a></li>
+                       <li><a href="#">Cooldrinks</a></li>
+                        <li><a href="#">Soaps&Detergent</a></li>
+                         <li><a href="#">Branded Food</a></li>
+                         <li><a href="#">Food Delivery </a></li>
+                          <li><a href="#">Order A Cake </a></li>
+                          <li><a href="#">Order FastFood </a></li>
+                          <li><a href="#">Order BreakFast</a></li>
+                            <li><a href="#">Dry cleaning</a></li>
+                              <li><a href="#">Gas Stove Repairing</a></li>
+                              <li><a href="#">Find Home Servant</a></li>
+                              <li><a href="#">Find Technician</a></li>
+                              <li><a href="#">Find Plumbing labour</a></li>
+                              <li><a href="#">Find HomePainter</a></li>
+                              <li><a href="#">Home shifting labour</a></li>
+                              
+                              
+                              
+                          
+                          
+                 
+             </ul>
+             
+             
+         </div>
+      <div class = "slider">
+          <img id="1" src="img/image1.png" border="0"/>
+          <img id="2" src="img/image3.jpg" border="0"/>.
+          <img id="3" src="img/image4.jpg" border="0"/>
+      </div>
+         <div id="size">
+         <div class="ImgDis">
+              <img src="img/veg1.jpg" border="0"/>
+              <div class="ImgTex">
+                  <p> BUY VEGETABLE</p>
+              </div>   
+         </div>
+         <div class="ImgDis">
+             <img src="img/bread_milk.jpg" border="0"/>
+              <div class="ImgTex">
+                  <p> BUY VEGETABLE</p>
+              </div> 
+         </div>
+         <div class="ImgDis">
+             <img src="img/bread_milk.jpg" border="0"/>
+              <div class="ImgTex">
+                  <p> BUY VEGETABLE</p>
+              </div> 
+         </div>
+         </div>
+           <div id="size">
+         <div class="ImgDis">
+              <img src="img/veg1.jpg" border="0"/>
+              <div class="ImgTex">
+                  <p> BUY VEGETABLE<p>
+              </div>   
+         </div>
+         <div class="ImgDis">
+             <img src="img/bread_milk.jpg" border="0"/>
+              <div class="ImgTex">
+                  <p> BUY VEGETABLE</p>
+              </div> 
+         </div>
+         <div class="ImgDis">
+             <img src="img/bread_milk.jpg" border="0"/>
+              <div class="ImgTex">
+                  <p> BUY VEGETABLE</p>
+              </div> 
+         </div>
+         </div>
+           <div id="size">
+         <div class="ImgDis">
+              <img src="img/veg1.jpg" border="0"/>
+              <div class="ImgTex">
+                  <p> BUY VEGETABLE</p>
+              </div>   
+         </div>
+         <div class="ImgDis">
+             <img src="img/bread_milk.jpg" border="0"/>
+              <div class="ImgTex">
+                  <p> BUY VEGETABLE</p>
+              </div> 
+         </div>
+         <div class="ImgDis">
+             <img src="img/bread_milk.jpg" border="0"/>
+              <div class="ImgTex">
+                  <p> BUY VEGETABLE</p>
+              </div> 
+         </div>
+         </div>
+         <div id ="rightBox">
+            <div class="callByp">
+                <p>order by call</p>
+                </div>
+              <div class="callByp">
+                <p>order by call</p>
+                </div>
+              <div class="callByp">
+                <p>order by call</p>
+                </div>
+           </div>
+           
+      
+    </body>
+</html>

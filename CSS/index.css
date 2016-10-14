@@ -1,0 +1,256 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 26, 2015, 10:28:32 PM
+    Author     : User
+*/
+
+body{
+    width:1423px;
+    background-color: #eaeaea;
+}
+#header {
+    background-color:#f6f5f4;
+    width:1423px;
+    height:120px;
+    border:0px;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-8px;
+    position: relative;
+   
+    
+}
+
+#logo img{
+    border:0px;
+    margin: 0px;
+    top:-14px;
+    width:150px;
+    height:105px;
+    position: absolute;
+}
+#logo p{
+    border:0px;
+    margin:0px;
+    top:45px;
+    left:105px;
+    position: absolute;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size:22px;
+    color:#a82e2e;
+}
+#logo form{
+    border:0px;
+    margin:0px;
+    top:30px;
+    left:400px;
+    position:absolute;
+}
+#logoB{
+    margin-left: 850px;
+    border:0px;
+    margin-bottom:0px;
+    top:25px;
+    position: absolute;
+}
+#logoB img{
+    
+    height:85px;
+}
+#logoC{
+    margin-left:1200px;
+    border:0px;
+    margin-bottom:0px;
+    top:0px;
+    position: absolute;
+  }
+#logoC img{
+    height:130px;
+    border:0px;
+}
+#logoD{
+    margin-left:1050px; 
+    border:0px;
+    margin-bottom:0px;
+    top:5px;
+    position: absolute;
+    width:200px;
+  }
+  #logoD p{
+      font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+      position: absolute;
+  }
+#Sinp{
+    width:350px;
+    height:35px;
+    border-bottom-left-radius: 5px 5px;
+    border:1px solid #a82e2e;
+}
+#Sbtn{
+    width:65px;
+    height:39px;
+    border-bottom-right-radius: 5px 5px;
+    border:1px solid #a82e2e;
+    color:#fff;
+    background-color:#5fa3e7; 
+}
+#Sbtn:hover{
+    background-color:#0066cc;
+
+}
+
+#hmenu ul{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left:300px;
+   padding:0px;
+   list-style-type: none;
+
+   
+    
+}
+#hmenu ul li{
+    
+    
+    margin-right:2px;
+    float:left;
+    line-height:30px;
+    width:158px;
+    height:30px;
+    line-height:25px;
+    text-align: center;
+    display:block;
+    background-color:#82e799;
+    
+}
+#hmenu ul li a{
+    text-decoration: none;
+    color:#fff;
+    
+}
+ #hmenu ul li:hover{
+    background-color:#0e4119;
+}
+
+#vmenu{
+    padding: 0px;
+    margin:0px;
+    height:515px;
+    width:300px;
+    top:120px;
+    left:2px;
+    border:1px solid #a82e2e;   
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+   box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    position: absolute;
+}
+#vmenu ul{
+    padding:0px;
+    margin-left:1px;
+    text-decoration: none;
+}
+#vmenu ul li{
+    background-color:#ff9933;
+    display:block;
+    margin-bottom: 1px;
+    height:23px;
+    text-align: center;
+    width:295px;
+    border:0.5px solid #fff;
+    position:relative;    
+}
+#vmenu ul li a{
+    text-decoration: none;
+    color:white;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+#vmenu ul :hover{
+    background-color:#59330d;
+   }
+.slider{
+  width:798px;
+  height:350px;
+  overflow:hidden;
+  margin-left:300px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.slider img{
+    width:800px;
+    height:350px;
+    display:none;
+}
+#size{
+    margin-top:5px;
+    margin-bottom: 0px;
+    margin-left:300px;
+    margin-right: 300px;
+}
+.ImgDis
+{
+    
+    padding-left:2px;   
+    height: auto;
+    width: auto;
+    float: left;
+  }
+.ImgDis img{
+    
+    
+    width:264px;
+    height:200px;
+    float:left;
+    border:1px solid #82e799;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.ImgDis img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease
+}
+.ImgTex{
+    background-color:#1aa5a5;
+    margin:0px;
+    padding:0px;
+    box-shadow: 10px 10px 2px #888888; 
+ 
+}
+.ImgTex p{
+    color:white;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    text-align:center;
+    font-size:20px;
+}
+#rightBox{
+    height:1000px;
+    width:308px;
+    border:1px solid #cc3300;
+    left:1112px;
+    top:122px;
+    background-color:#ffffff;
+    position: absolute;
+}
+.callByp{
+    background-color: #0099ff;
+    height:23px;
+    width:308px;
+    margin-top:0px;
+    border:1px solid #ffffff;
+}
+.callByp p{
+   
+    text-align:center;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size:25px;
+    margin-top:-7px;
+  
+}
+
